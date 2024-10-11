@@ -1,0 +1,114 @@
+{
+  "productos": [
+    {
+      "nombre": "Breitling Avenger",
+      "foto": "img/breitling-avenger.webp",
+      "detalles": "El modelo de 3 manecillas de la colección Avenger también se ha visto mejorado y perfilado, ahora disponible en Tres referencias de 42 mm de diámetro.",
+      "precio": 25000,
+      "stock": "3",
+      "marca": "Breitling",
+      "categoria": "Reloj",
+      "id": 1,
+      "envio": false
+    },
+    {
+      "nombre": "Breitling Navitimer",
+      "foto": "img/breitling-navitimer-imited.webp",
+      "detalles": "Además de los nuevos modelos Navitimer Automatic 41 y Navitimer GMT 41, Breitling también ha presentado el Navitimer B12 Chronograph 41 Cosmonaute Limited Edition",
+      "precio": 35500,
+      "stock": "4",
+      "marca": "Breitling",
+      "categoria": "Reloj",
+      "id": 2,
+      "envio": true
+    },
+    {
+      "nombre": "Rolex Daytona",
+      "foto": "img/rolex-daytona.webp",
+      "detalles": "Nuevo Cosmograph Daytona, un reloj inédito que conmemora el centenario de la legendaria carrera automovilística.",
+      "precio": 36800,
+      "stock": 4,
+      "marca": "Rolex",
+      "categoria": "Reloj",
+      "id": 3,
+      "envio": false
+    },
+    {
+      "nombre": "Omega Bioceramic",
+      "detalles": "Omega se han inspirado en el espacio exterior. Por ello, su colección de once relojes lleva los nombres de los cuerpos planetarios.",
+      "foto": "img/omega-bioceramic.webp",
+      "precio": 19800,
+      "stock": 7,
+      "marca": "Omega",
+      "categoria": "Reloj",
+      "id": 4,
+      "envio": true
+    },
+    {
+      "nombre": "Omega James Bond",
+      "detalles": "Omega presentó en 2002 el Seamaster Diver 40th Anniversary James Bond Edition, el primer reloj de la marca suiza dedicado oficialmente al agente secreto al servicio de Su Majestad.",
+      "foto": "img/omega-james-bond.webp",
+      "precio": 1200,
+      "stock": 4,
+      "marca": "Omega",
+      "categoria": "Reloj",
+      "id": 5,
+      "envio": true
+    },
+    {
+      "id": 6,
+      "nombre": "Rolex Perpetual",
+      "precio": 11300,
+      "stock": 14,
+      "marca": "Rolex",
+      "categoria": "Reloj",
+      "detalles": "Siguiendo con las novedades de Rolex para 2024, tenemos una deslumbrante versión en platino del Rolex Perpetual 1908",
+      "foto": "img/rolex-perpetual.webp",
+      "envio": true
+    },
+    {
+      "id": 7,
+      "nombre": "Patek Philippe Grand Master",
+      "precio": 99500,
+      "stock": 3,
+      "marca": "Patek Philippe",
+      "categoria": "Reloj",
+      "detalles": "Patek Philippe ha presentado un reloj realmente especial, con un movimiento desarrollado recientemente en celebración del 85 cumpleaños de Philippe Stern.",
+      "foto": "img/patek-philippe-grandmaster.webp",
+      "envio": false
+    },
+    {
+      "id": 8,
+      "nombre": "Rolex Submarine",
+      "precio": "9500",
+      "stock": "12",
+      "marca": "Rolex",
+      "categoria": "Reloj",
+      "detalles": "El Submariner cuenta con una esfera negra con índices en oro de 18 quilates que es un prodigio de legibilidad.",
+      "foto": "img/rolex-submarine.webp",
+      "envio": true
+    },
+    {
+      "id": 9,
+      "nombre": "Cartier Santos",
+      "precio": "8900",
+      "stock": "12",
+      "marca": "Cartier",
+      "categoria": "Reloj",
+      "detalles": "Un clásico renovado con manecillas que giran en sentido antihorario desafía las convenciones con una propuesta audaz.",
+      "foto": "img/santos-Cartier.webp",
+      "envio": true
+    },
+    {
+      "id": 10,
+      "nombre": "Vacheron Constantin",
+      "precio": "105000",
+      "stock": "1",
+      "marca": "Vacheron Constantin",
+      "categoria": "Reloj",
+      "detalles": "Muestra siempre su pasión por la Alta Relojería y el buen hacer en relojes de coleccionista.",
+      "foto": "img/vacheron-constantin.webp",
+      "envio": false
+    }
+  ]
+}

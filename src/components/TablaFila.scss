@@ -1,0 +1,43 @@
+.img-row {
+  width: 50px; // Ancho de la imagen
+}
+
+// Contenedor para los botones
+.button-container {
+  display: flex; // Usa flexbox para alinear los botones en una fila
+  gap: 8px; // Espacio de 15px entre los botones
+
+  button {
+    padding: 8px 12px; // Ajusta el padding del botón
+    background-color: #007bff; // Color de fondo del botón
+    color: white; // Color del texto
+    border: none; // Sin borde
+    border-radius: 4px; // Bordes redondeados
+    cursor: pointer; // Cambia el cursor al pasar sobre el botón
+    transition: background-color 0.3s; // Efecto de transición para el fondo
+
+    &:hover {
+      background-color: #0056b3; // Color de fondo al pasar el mouse
+    }
+  }
+}
+
+// Media query para pantallas de 576px o menos
+@media (max-width: 576px) {
+  .img-row {
+    width: 40px; // Reduce el tamaño de la imagen en pantallas pequeñas
+  }
+
+  .button-container {
+    flex-direction: column; // Cambia a columna en pantallas pequeñas
+    gap: 15px; // Mantiene el espacio de 15px entre botones en vertical
+
+    button {
+      width: 100%; // Los botones ocuparán todo el ancho disponible
+    }
+
+    button:last-child {
+      margin-bottom: 0; // Elimina el margen inferior del último botón
+    }
+  }
+}
