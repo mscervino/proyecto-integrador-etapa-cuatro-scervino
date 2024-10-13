@@ -44,8 +44,9 @@ const CarritoProvider = ( { children } ) => {
         limpiarCarrito()
     }
 
-    const guardarCarritoContext = () => {
+    const guardarCarritoContext = (carrito) => {
         console.log(carrito)
+        console.log(JSON.stringify(carrito))
     }
 
     const data = {
