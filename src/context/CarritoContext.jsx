@@ -1,9 +1,12 @@
 import { createContext } from "react";
 import { useLocalStorage } from "../hooks/useLocalStorage";
+import { helperPeticionesHttp } from "../helpers/helper-peticiones-http";
 
 const CarritoContext = createContext()
 
 const CarritoProvider = ( { children } ) => {
+    const url = import.meta.env.VITE_BACKEND_CARRITOS
+    
 
     const [ agregarAlCarrito, eliminarDelCarrito, limpiarCarrito, carrito ] = useLocalStorage('carrito', [])
 
@@ -44,9 +47,26 @@ const CarritoProvider = ( { children } ) => {
         limpiarCarrito()
     }
 
-    const guardarCarritoContext = (carrito) => {
+    const guardarCarritoContext = async (carrito) => {
         console.log(carrito)
         console.log(JSON.stringify(carrito))
+
+        try {
+
+            const options = {
+                method: 'POST',
+                headers: { 'Content-Type' : 'application/json'},
+                body: JSON.stringify(carrito)
+            }
+
+            const losProductosEnElCarrito = await helperPeticionesHttp(url, options)
+            
+            console.log(losProductosEnElCarrito)
+
+        } catch (error) {
+            console.error('[guardarCarritoContext]', error)
+        }
+
     }
 
     const data = {
